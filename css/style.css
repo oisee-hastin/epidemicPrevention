@@ -1,0 +1,192 @@
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* Settings*/
+
+body {
+    overflow: auto;
+    margin:0px auto;
+    background-color: #FCF4F3;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size:18pt;
+    margin-bottom: 15px;
+    color: #4D4D4D;
+}
+
+h4{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size:12pt;
+    font-weight: bold;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: 'Noto Sans TC', sans-serif;
+    word-wrap:normal;
+    font-size: 12pt;
+    line-height: 24pt;
+    color: #4D4D4D;
+}
+table{
+    font-family: 'Noto Sans TC', sans-serif;
+    word-wrap:normal;
+    font-size: 12pt;
+    line-height: 18pt;
+    color: #4D4D4D;
+}
+
+td{
+    padding: .2rem 0px;
+    vertical-align: middle;
+}
+.tableTopRow{
+    border-bottom:.8px #4D4D4D solid;
+    font-weight: bold;
+}
+.tableBottomRow{
+    border-top:.8px #4D4D4D solid;
+    font-size: 5pt;
+    text-align: right;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.indent{
+    margin-left: 1rem;
+}
+.firstLine{
+    text-indent: 2rem;
+}
+td.widthBlank{
+    width: 1rem;
+}
+
+.mainContainer{
+    max-width:1024px;
+    margin:0px auto;
+    justify-content:center;
+    
+}
+
+.chapterContainer{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.chapterBanner{
+    vertical-align: middle;
+    overflow: hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-height: 300px;
+}
+
+img.chapterBanner {
+    width: 100%;
+}
+
+p.chapterText{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:#333333;
+    font-family: 'Noto Sans TC', sans-serif;
+
+    /* font-weight:bold; */
+}
+
+
+div.blockContainer{
+    display: flex;
+    flex-wrap: wrap ; 
+    width:100%;
+    margin-bottom: 80px;
+    justify-content:center;
+}
+
+div.block{
+    flex-grow:1;
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 10px #FFCAD4;
+    /* border-radius:.5rem; */
+    margin: .8rem; 
+    /* padding:1rem; */
+    justify-content:center;
+}
+
+div.blockBanner{
+    vertical-align: middle;
+    overflow: hidden;
+    display:flex;
+    width:100%;
+    margin-bottom: 1rem;
+    z-index:1;
+    position: relative;
+    background-size: 140%;
+    background-position:center center;
+    background-blend-mode: overlay;
+
+}
+
+div.blockBanner:after{
+    content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background: inherit;
+    filter: blur(2px);
+    background-blend-mode: inherit;
+    z-index: 2;
+}
+
+img.blockBanner{
+    justify-content:center;
+    max-width:500px;
+    width:100%;
+    margin:0px auto;
+    filter: none;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    z-index: 10;
+}
+
+div.paragraph{
+    margin: 30px 1rem 40px;
+ 
+}

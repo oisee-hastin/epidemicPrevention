@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Q-brow 防疫手冊</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <!-- <script src="app.js"></script> -->
+    <!--TODO:在href補上網頁incon-->
+    <link rel="shortcut icon" href="">
+
+</head>
+
+<body>
+    <div class="mainContainer">
+        <img src="images/Cover.png" alt="" class="chapterBanner">
+
+        <div id="statement" class="chapterContainer">
+            <img src="images/00_statement.png" alt="" class="chapterBanner">
+            <div class="paragraph">
+                <h1>製作團隊</h1>
+                <p>好棒棒醫學資訊設計
+                    我們是</p>
+            </div>
+            <div class="paragraph">
+                <h1>製作目的</h1>
+                <p class="firstLine">
+                    因應全球新冠肺炎疫情日益嚴峻，防疫衛教迫在眉睫，因此團隊期望貢獻棉薄之力，一同協防。有鑑於目前防疫資訊眾多，故團隊將其統整，並以更易理解的方式加以闡述，期待大家在遵循防疫措施時，也能知道背後的原因及重要性。
+                </p>
+            </div>
+            <div class="paragraph">
+                <h1>注意事項</h1>
+                <p class="firstLine">
+                    由於疫情變化迅速，政府防疫策略必會因時制宜；且科學證據也會隨時間陸續增加。若有新的防疫內容，團隊也立即更新。您可以隨時至好棒棒Facebook粉絲專頁，私訊機器人小編索取最新的檔案版本。
+                </p>
+            </div>
+            <div class="paragraph">
+                <h1>感謝名單</h1>
+                <p>● 露比的點心茶會 <br>
+                    ● 余宗鳴律師暨其事務所團隊
+                </p>
+            </div>
+        </div>
+
+
+        <div id="chapter01" class="chapterContainer">
+            <img src="images/01_Banner.png" alt="" class="chapterBanner">
+            <div class="paragraph">
+                <p class="firstLine">
+                    根據美國疾管局估計，自2019年10月1日至2020年2月22日止，短短五個月內，光是美國流感感染人數就有3200萬人，但同時武漢肺炎確診還不到10萬人。明明數量差這麼多，是什麼原因讓全球的專家對於這場病毒與人類間的戰役如此緊張？不能把它當流感看待就好嗎？
+                </p>
+            </div>
+            <div class="paragraph">
+                <h1>為什麼不能把武漢肺炎當流感？</h1>
+                <h4>● 致死率高</h4>
+                <p class="indent">約2~3%，是流感的30倍左右，且年齡愈大或有慢性疾病的人，致死率愈高。</p>
+                <div style="height: 10px;"></div>
+                <div class="indent">
+                    <!-- <div display="warp" flex-wrap="warp" class="blockContainer"> -->
+                    <table style="display:inline-flex">
+                        <tr>
+                            <td colspan="3" class="tableTopRow">依年齡區分</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">30~39歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">0.12%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">40~49歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">0.09%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">50~59歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">0.38%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">60~69歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">1.38%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">70~79歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">5.33%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">>80歲</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">9.51%</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="tableBottomRow">資料來源：韓國疾管局</td>
+                        </tr>
+                    </table>
+                    <div style="width:3rem;display:inline-flex;flex-wrap: wrap ;"></div>
+                    <table style="display:inline-flex">
+                        <tr>
+                            <td colspan="3" class="tableTopRow">依慢性病區分</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">心血管疾病</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">13.2%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">糖尿病</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">9.2%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">高血壓</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">8.4%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">慢性<br> 呼吸道疾病</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">8.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="alignRight">癌症</td>
+                            <td class="widthBlank"></td>
+                            <td class="alignRight">7.6%</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="tableBottomRow">資料來源：韓國疾管局</td>
+                        </tr>
+                    </table>
+                </div>
+                <h4>● 沒有武器</h4>
+                <p class="indent">
+                    流感有治療藥物與疫苗，但武漢肺炎沒有。雖然目前有羥氯喹（hydroxychloroquine）、瑞德西韋（remdesivir）等許多藥物正在研究中，但是否真的有效仍需要等到正式報告出來才能知道。而且藥物使用上通常有限制，到底孕婦、腎功能不佳的病人能否使用也是個未知數。另外，疫苗的發明也至少需要一年的時間，緩不濟急。
+                </p>
+                <h4>● 充滿未知</h4>
+                <p class="indent">
+                    如果不及早防堵，會消耗掉多少醫療資源？我們的醫療系統撐得住嗎？這隻病毒到底會對我們的身體會產生怎麼樣的傷害？會留下後遺症的比例高嗎？感染過一次就真的可以終生免疫嗎？疫情會消失嗎？還是會像流感一樣每年都來？如果像英國一樣讓大家感染以獲得群體免疫，有效嗎？還是會更容易產生變異的病毒？病毒會不會在疫苗產生前就產生突變？
+                </p>
+            </div>
+            <div class="paragraph">
+                <p> 在媒體漫天渲染下，害怕是正常的。但我們希望你讀完這本手冊後，會因為了解而謹慎，而不是對於未知而恐慌。
+                </p>
+            </div>
+        </div>
+
+        <div id="chapter02" class="chapterContainer">
+            <img src="images/02_Banner.png" alt="" class="chapterBanner">
+            <div class="blockContainer">
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/02_1 socialCost.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/02_1 socialCost.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>社會成本</h1>
+                        <p class="firstLine">
+                            當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本絕對超過百倍。一次接一顆球很容易，但同時要接100顆球就不可能達到。因此防疫政策必須及早執行，唯有延緩病毒擴散的速度才能減少社會成本的支出。萬一錯失先機，就會像義大利等國家一樣，大量的國民死亡與經濟衰退是必然的。
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/02_2 mutate.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/02_2 mutate.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>病毒突變</h1>
+                        <p class="firstLine">
+                            武漢肺炎病毒是一種RNA病毒，容易突變是與生俱來的特性。愈多人感染，就有愈多的病毒產生突變。這種突變是隨機的，我們無法知道突變的後果會是什麼。傳播力會變高嗎？傳染途徑會改變嗎？疫苗做出來的時候，有能力預防這些突變的病毒嗎？現在正在研究的治療藥物還有效嗎？因此，我們必須採取積極的防疫措施，減少感染人數以爭取更多的時間。唯有等待疫苗問世，才能真正阻止這場疫情。
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/02_3 resource.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/02_3 resource.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>醫療資源</h1>
+                        <p class="firstLine">
+                            醫療資源珍貴且有限，當感染人數超過系統負荷時，會有許多人無法得到適當的醫療，因此死亡人數會大幅升高，同時防疫也愈加困難。醫護人員也可能因為病人增加而超量工作，或是因為防護設備存量不足以因應，而讓自己和病人面臨更多的感染風險，形成無法挽救的惡性循環。義大利就是我們必須謹記在心的前車之鑑。在疫苗與藥物產出之前，積極控制傳播速度，讓同時間的感染人數不要超過醫療系統負荷，是非常重要的防疫策略。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="chapter03" class="chapterContainer">
+            <img src="images/03_Banner.jpg" alt="" class="chapterBanner">
+            <div class="blockContainer">
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/03_1 worry.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/03_1 worry.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>人性啊！</h1>
+                        <h4>● 奇貨可居，不是奇貨也囤積</h4>
+                        <p class="indent">
+                            人類容易恐慌而做出許多不理性的行為，例如搶購衛生紙、酒精棉片、食物等。本來這些物資足以平均分配，但因為部分的人搶購、囤貨等行為，而造成真正需要的人無法取得資源，例如糖尿病友因為無酒精棉片而難以施打胰島素。
+                        </p>
+                        <h4>● 矛頭對向自己人</h4>
+                        <p class="indent">
+                            歧視醫護人員，認為醫護人員很髒，不願意提供便當，或禁止醫護人員的小孩上學；亞洲人被視為病原，只要戴上口罩就引來側目；移工和跨國工作者被貼上防疫破口的標籤；甚至辱罵感染者，造成潛在的感染者不敢出面通報，而形成防疫漏洞。此外，也有許多人喜歡散布假消息以製造恐慌。
+                        </p>
+                        <h4>● 衛生概念待加強</h4>
+                        <p class="indent">
+                            多數人聽過洗手的重要性，但無法將此觀念內化並落實在生活。總覺得有口罩就可以安心，以為戴上口罩擋住飛沫就不會被傳染，卻不曉得「接觸傳染」才是病毒傳播的最佳途徑。若我們無法建立洗手的習慣，等於是引狼入室，我們終將成為病毒的傳播者。
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <p class="firstLine">
+                            武漢病毒不像人類一樣複雜，此生唯一的目標是感染人類，傳宗接代。但人類呢？不僅要對付病毒，還要處理內亂。因此，疫情持續擴大是必然的，社區傳播的來到也並不令人意外。此時的我們要謹慎積極，但不要恐慌，恐慌是我們的弱點，也是防疫的破口。防疫心態上也應該從「只靠政府防堵疫情」轉為「全民一起減災」，只要能讓自己和家人減少感染機會，就是對防疫最大的貢獻。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="chapter04" class="chapterContainer">
+            <img src="images/04_Banner.png" alt="" class="chapterBanner">
+            <div class="blockContainer">
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_1 knowing.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_1 knowing.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>三大傳播途徑</h1>
+                        <h4>❶ 吸入飛沫</h4>
+                        <p class="indent">含有病毒的飛沫直接進入健康人的呼吸道</p>
+
+                        <h4>❷ 直接接觸</h4>
+                        <p class="indent">手直接碰到飛沫，但未洗手就接觸自己的眼、鼻、口。</p>
+
+                        <h4>❸ 間接接觸</h4>
+                        <p class="indent">手間接碰到病毒，例如公車拉環、電梯按鈕等。</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_2 mask.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_2 mask.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>誰一定要戴口罩？</h1>
+                        <h4>● 進入醫療院所看病、陪病、探病</h4>
+                        <p class="indent">因為醫療院所的病人密度最高，這也是為什麼醫護人員一定要戴口罩的原因。</p>
+                        <h4>● 老年人和慢性病患</h4>
+                        <p class="indent">TODO:</p>
+                        <h4>● 有症狀者（如發燒、喉嚨痛、流鼻水、打噴嚏、咳嗽等）</h4>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_2_1 types.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_2_1 types.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>口罩有三層</h1>
+                        <h4>❶ 外 - 防水層</h4>
+                        <p class="indent">防水層可以阻擋飛沫，通常就是有顏色的那層。</p>
+                        <h4>❷ 中 - 過濾層</h4>
+                        <p class="indent">過濾層可以用來吸附細菌和粉層。</p>
+                        <h4>❸ 內 - 吸水層</h4>
+                        <p class="indent">吸水層可以用來吸附汗水和油脂。且因為會直接接觸皮膚，材質也比較細緻，避免久戴不適。</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_2_2 wearing.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_2_2 wearing.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>口罩怎麼戴？</h1>
+                        <h4>❶ 顏色 - 面朝外</h4>
+                        <p class="indent">千萬別戴反，否則吸水層在外，會大量吸附別人的飛沫。</p>
+                        <h4>❷ 壓條 - 要壓緊</h4>
+                        <p class="indent">增加口罩密合度，避免飛沫從鼻樑兩側的縫隙進入口鼻。</p>
+                        <h4>❸ 下巴 - 要蓋住</h4>
+                        <p class="indent">同樣為了增加口罩密合度，避免飛沫進入口鼻。</p>
+                        <h4>❹ 勿碰顏色面</h4>
+                        <p class="indent">口罩最外層雖然防水，但還是會有別人的飛沫殘留。這一面即為「污染面」，故脫下時應避免碰觸，萬一碰觸到應立即洗手。</p>
+
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_2_3 reuse.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_2_3 reuse.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>口罩不夠怎麼辦</h1>
+                        <p class="firstLine">
+                            在資源充裕的情況下，口罩不該重複使用。但此次疫情嚴峻，在不得已重複使用時，建議可以沿著長邊把「污染面」對折在內，再放入乾淨信封中收納。但若口罩已有明顯髒污，或明確接觸有上呼吸道症狀者後，強烈建議直接丟棄。<br>
+                            另外需要注意的是，不要用水洗或酒精等任何方式消毒口罩，否則會消除過濾層的靜電而影響防護能力。
+                        </p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_2_4 polite.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_2_4 polite.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>衛生禮節要注意</h1>
+                        <p class="firstLine">當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本與防疫難度絕對超過百倍，因此防疫政策愈早執行愈好。</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_00 wash.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_00 wash.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1>TODO:</h1>
+                        <p class="firstLine">當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本與防疫難度絕對超過百倍，因此防疫政策愈早執行愈好。</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_01 ne.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_01 ne.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_02 wai.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_02 wai.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_03 jia.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_03 jia.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_04 gong.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_04 gong.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_05 da.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_05 da.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_06 li.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_06 li.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_07 wan.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_07 wan.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_3_08 rou.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_3_08 rou.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_4 cleaning.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_4 cleaning.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_5 social.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        <img src="images/04_5 social.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="paragraph">
+                        <h1></h1>
+                        <h4></h4>
+                        <p class="indent"></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- <div class="block">
+            <div class="blockBanner"
+                style="background: url('images') rgba(252, 205, 197, 1)  center center /150%">
+                <img src="images" alt="" class="blockBanner">
+            </div>
+            <div class="paragraph">
+                <h1></h1>
+                <h4></h4>
+                <p class="indent"></p>
+            </div>
+        </div> -->
+
+
+        <!-- <div class="blockContainer">
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                </div>
+                <p class="blockText">說明說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                </div>
+                <p class="blockText">說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+        </div>
+
+
+        <div id="chapter02" class="chapterContainer">
+            <div class="chapterBanner">
+                <img src="images/chapter_02/1145460.jpg"" alt="" class=" chapterBanner">
+            </div>
+            <p class=chapterText>
+                chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter
+                02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/
+                chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/ chapter 02/
+            </p>
+        </div>
+
+        <div class="blockContainer">
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_02/1145460.jpg"" alt="" class=" blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_02/1145460.jpg"" alt="" class=" blockBanner">
+                </div>
+                <p class="blockText">說明說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_02/1145460.jpg"" alt="" class=" blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_02/1145460.jpg"" alt="" class=" blockBanner">
+                </div>
+                <p class="blockText">說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+            <div class="block">
+                <div class="blockBanner">
+                    <img src="images/chapter_02/1145460.jpg"" alt="" class=" blockBanner">
+                </div>
+                <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
+                </p>
+            </div>
+        </div> -->
+
+
+
+
+    </div>
+</body>
