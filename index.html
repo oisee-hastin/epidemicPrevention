@@ -18,25 +18,28 @@
 
 <body>
     <div class="mainContainer">
-        <img src="images/00_Cover.png" alt="" class="chapterBanner">
-
+        <picture class="chapterBanner">
+            <source media="(max-width: 870px)" srcset="images/cover_mobile.jpg" class="chapterBanner">
+            <img src="images/cover_Web.jpg" alt="" class="chapterBanner">
+        </picture>
+        <div style="height: 30px;"></div>
         <div id="statement" class="chapterContainer">
-            <img src="images/00_statement.png" alt="" class="chapterBanner">
+            <picture class="chapterBanner">
+                <source media="(max-width: 870px)" srcset="images/statement__mobile.jpg" class="chapterBanner">
+                <img src="images/statement_Web.jpg" alt="" class="chapterBanner">
+            </picture>
+
             <div class="paragraph">
                 <h1>製作團隊</h1>
-                <p>好棒棒醫學資訊設計
-                    我們是</p>
+                <p>好棒棒醫學資訊設計</p>
+                <p class="firstLine">我們是一群由醫療人員、設計師與動畫師結合的跨領域團隊。團隊的醫療人員不僅僅只有台大醫師，也陸續擴展到各醫療體系的醫師、藥師、護理師、物理治療師等。
+                </p>
+                <p class="firstLine">把複雜的醫學變得簡單明瞭是我們的使命；將醫學知識科普化是我們的任務。我們期望社會上的每個角落，不分種族、宗教、性別、年齡都能享受到正確的醫學知識。</p>
             </div>
             <div class="paragraph">
                 <h1>製作目的</h1>
                 <p class="firstLine">
-                    因應全球新冠肺炎疫情日益嚴峻，防疫衛教迫在眉睫，因此團隊期望貢獻棉薄之力，一同協防。有鑑於目前防疫資訊眾多，故團隊將其統整，並以更易理解的方式加以闡述，期待大家在遵循防疫措施時，也能知道背後的原因及重要性。
-                </p>
-            </div>
-            <div class="paragraph">
-                <h1>注意事項</h1>
-                <p class="firstLine">
-                    由於疫情變化迅速，政府防疫策略必會因時制宜；且科學證據也會隨時間陸續增加。若有新的防疫內容，團隊也立即更新。您可以隨時至好棒棒Facebook粉絲專頁，私訊機器人小編索取最新的檔案版本。
+                    因應全球疫情日益嚴峻，防疫衛教迫在眉睫，因此團隊期望貢獻棉薄之力，一同協防。有鑑於目前防疫資訊眾多且龐雜，故團隊將其統整與簡化後，以更易理解的方式加以闡述，期待大家在遵循防疫措施時，也能知道背後的原因及重要性。
                 </p>
             </div>
             <div class="paragraph">
@@ -45,11 +48,20 @@
                     ● 余宗鳴律師暨其事務所團隊
                 </p>
             </div>
+            <div class="paragraph">
+                <h1>注意事項</h1>
+                <p class="firstLine">
+                    由於疫情變化迅速，政府防疫策略必會因時制宜；且科學證據也會隨時間陸續增加。若有新的防疫內容，團隊也立即更新。您可以隨時至好棒棒Facebook粉絲專頁，私訊機器人小編索取最新的檔案版本。
+                </p>
+            </div>
         </div>
 
 
         <div id="chapter01" class="chapterContainer">
-            <img src="images/01_Banner.png" alt="" class="chapterBanner">
+            <picture class="chapterBanner">
+                <source media="(max-width: 870px)" srcset="images/banner_01_mobile.jpg" class="chapterBanner">
+                <img src="images/banner_01_Web.jpg" alt="" class="chapterBanner">
+            </picture>
             <div class="paragraph">
                 <p class="firstLine">
                     根據美國疾管局估計，自2019年10月1日至2020年2月22日止，短短五個月內，光是美國流感感染人數就有3200萬人，但同時武漢肺炎確診還不到10萬人。明明數量差這麼多，是什麼原因讓全球的專家對於這場病毒與人類間的戰役如此緊張？不能把它當流感看待就好嗎？
@@ -58,7 +70,7 @@
             <div class="paragraph">
                 <h1>為什麼不能把武漢肺炎當流感？</h1>
                 <h4>● 致死率高</h4>
-                <p class="indent">約2~3%，是流感的30倍左右，且年齡愈大或有慢性疾病的人，致死率愈高。</p>
+                <p class="indent">致死率約2~3%，是流感的30倍左右，且年齡愈大或有慢性疾病的人，致死率愈高。</p>
                 <div style="height: 10px;"></div>
                 <div class="indent">
                     <!-- <div display="warp" flex-wrap="warp" class="blockContainer"> -->
@@ -137,315 +149,532 @@
                 </div>
                 <h4>● 沒有武器</h4>
                 <p class="indent">
-                    流感有治療藥物與疫苗，但武漢肺炎沒有。雖然目前有羥氯喹（hydroxychloroquine）、瑞德西韋（remdesivir）等許多藥物正在研究中，但是否真的有效仍需要等到正式報告出來才能知道。而且藥物使用上通常有限制，到底孕婦、腎功能不佳的病人能否使用也是個未知數。另外，疫苗的發明也至少需要一年的時間，緩不濟急。
+                    流感有治療藥物與疫苗，但武漢肺炎沒有。雖然目前有羥氯喹（hydroxychloroquine）、瑞德西韋（remdesivir）等許多藥物正在研究中，但是否真的有效仍需要等到正式報告出來才能知道。而且藥物使用上通常有限制，到底孕婦、腎功能不佳的病人能否使用也是個未知數。加上疫苗的發明也至少需要一年的時間，緩不濟急。
                 </p>
                 <h4>● 充滿未知</h4>
                 <p class="indent">
-                    如果不及早防堵，會消耗掉多少醫療資源？我們的醫療系統撐得住嗎？這隻病毒到底會對我們的身體會產生怎麼樣的傷害？會留下後遺症的比例高嗎？感染過一次就真的可以終生免疫嗎？疫情會消失嗎？還是會像流感一樣每年都來？如果像英國一樣讓大家感染以獲得群體免疫，有效嗎？還是會更容易產生變異的病毒？病毒會不會在疫苗產生前就產生突變？
+                    如果不及早防堵，會消耗掉多少醫療資源？我們的醫療系統撐得住嗎？這隻病毒到底會對我們的身體會產生怎麼樣的傷害？會留下後遺症的比例高嗎？感染過一次就真的可以終生免疫嗎？疫情會消失嗎？還是會像流感一樣每年都來？如果像英國一樣讓大家感染以獲得群體免疫，有效嗎？還是會更容易產生變異的病毒？病毒會不會在疫苗產生前就產生突變？因此在面對一個新興疾病時，我們必須及早防堵，才能在不確定病毒會造成多少影響前，讓我們有充裕的應對時間來規劃防疫策略。
                 </p>
             </div>
             <div class="paragraph">
-                <p> 在媒體漫天渲染下，害怕是正常的。但我們希望你讀完這本手冊後，會因為了解而謹慎，而不是對於未知而恐慌。
+                <p> 在媒體漫天渲染下，感到害怕是正常的。但我們希望你讀完這些資訊後，<span class="bold">會因為了解而謹慎，而不是對於未知而恐慌。</span>
                 </p>
             </div>
         </div>
 
         <div id="chapter02" class="chapterContainer">
-            <img src="images/02_Banner.png" alt="" class="chapterBanner">
+            <picture class="chapterBanner">
+                <source media="(max-width: 870px)" srcset="images/banner_02_mobile.jpg" class="chapterBanner">
+                <img src="images/banner_02_Web.jpg" alt="" class="chapterBanner">
+            </picture>
             <div class="blockContainer">
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/02_1 socialCost.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/02_1 socialCost.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/02_1 socialCost.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>社會成本</h1>
-                        <p class="firstLine">
-                            當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本絕對超過百倍。一次接一顆球很容易，但同時要接100顆球就不可能達到。因此防疫政策必須及早執行，唯有延緩病毒擴散的速度才能減少社會成本的支出。萬一錯失先機，就會像義大利等國家一樣，大量的國民死亡與經濟衰退是必然的。
-                        </p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>社會成本</h1>
+                            <p class="firstLine">
+                                當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本絕對超過百倍。一次接一顆球很容易，但同時要接100顆球就不可能達到。因此防疫政策必須及早執行，唯有延緩病毒擴散的速度才能減少社會成本的支出。萬一錯失先機，就會像義大利等國家一樣，大量的國民死亡與經濟衰退是必然的。
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/02_2 mutate.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/02_2 mutate.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/02_2 mutate.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>病毒突變</h1>
-                        <p class="firstLine">
-                            武漢肺炎病毒是一種RNA病毒，容易突變是與生俱來的特性。愈多人感染，就有愈多的病毒產生突變。這種突變是隨機的，我們無法知道突變的後果會是什麼。傳播力會變高嗎？傳染途徑會改變嗎？疫苗做出來的時候，有能力預防這些突變的病毒嗎？現在正在研究的治療藥物還有效嗎？因此，我們必須採取積極的防疫措施，減少感染人數以爭取更多的時間。唯有等待疫苗問世，才能真正阻止這場疫情。
-                        </p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>病毒突變</h1>
+                            <p class="firstLine">
+                                武漢肺炎病毒是一種RNA病毒，容易突變是與生俱來的特性。愈多人感染，就有愈多的病毒產生突變。這種突變是隨機的，我們無法知道突變的後果會是什麼。傳播力會變高嗎？傳染途徑會改變嗎？疫苗做出來的時候，有能力預防這些突變的病毒嗎？現在正在研究的治療藥物還有效嗎？沒有人可以保證！因此，我們必須採取積極的防疫措施，減少感染人數以爭取更多的時間。唯有等待疫苗問世，才能真正阻止這場疫情。
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/02_3 resource.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/02_3 resource.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/02_3 resource.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>醫療資源</h1>
-                        <p class="firstLine">
-                            醫療資源珍貴且有限，當感染人數超過系統負荷時，會有許多人無法得到適當的醫療，因此死亡人數會大幅升高，同時防疫也愈加困難。醫護人員也可能因為病人增加而超量工作，或是因為防護設備存量不足以因應，而讓自己和病人面臨更多的感染風險，形成無法挽救的惡性循環。義大利就是我們必須謹記在心的前車之鑑。在疫苗與藥物產出之前，積極控制傳播速度，讓同時間的感染人數不要超過醫療系統負荷，是非常重要的防疫策略。
-                        </p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>醫療資源</h1>
+                            <p class="firstLine">
+                                醫療資源珍貴且有限，當感染人數超過系統負荷時，會有許多人無法得到適當的醫療，因此死亡人數會大幅升高，同時防疫也愈加困難。醫護人員也可能因為病人增加而超量工作，或是因為防護設備存量不足以因應，而讓自己和病人面臨更多的感染風險，形成無法挽救的惡性循環。義大利就是我們必須謹記在心的前車之鑑。在疫苗與藥物產出之前，積極控制傳播速度，讓同時間的感染人數不要超過醫療系統負荷，是非常重要的防疫策略。
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
 
-        <div id="chapter03" class="chapterContainer">
-            <img src="images/03_Banner.jpg" alt="" class="chapterBanner">
-            <div class="blockContainer">
-                <div class="block">
-                    <div class="blockBanner"
-                        style="background: url('images/03_1 worry.jpg') rgba(252, 205, 197, 1)  center center /150%">
-                        <img src="images/03_1 worry.jpg" alt="" class="blockBanner">
-                    </div>
-                    <div class="paragraph">
-                        <h1>人性啊！</h1>
-                        <h4>● 奇貨可居，不是奇貨也囤積</h4>
-                        <p class="indent">
-                            人類容易恐慌而做出許多不理性的行為，例如搶購衛生紙、酒精棉片、食物等。本來這些物資足以平均分配，但因為部分的人搶購、囤貨等行為，而造成真正需要的人無法取得資源，例如糖尿病友因為無酒精棉片而難以施打胰島素。
-                        </p>
-                        <h4>● 矛頭對向自己人</h4>
-                        <p class="indent">
-                            歧視醫護人員，認為醫護人員很髒，不願意提供便當，或禁止醫護人員的小孩上學；亞洲人被視為病原，只要戴上口罩就引來側目；移工和跨國工作者被貼上防疫破口的標籤；甚至辱罵感染者，造成潛在的感染者不敢出面通報，而形成防疫漏洞。此外，也有許多人喜歡散布假消息以製造恐慌。
-                        </p>
-                        <h4>● 衛生概念待加強</h4>
-                        <p class="indent">
-                            多數人聽過洗手的重要性，但無法將此觀念內化並落實在生活。總覺得有口罩就可以安心，以為戴上口罩擋住飛沫就不會被傳染，卻不曉得「接觸傳染」才是病毒傳播的最佳途徑。若我們無法建立洗手的習慣，等於是引狼入室，我們終將成為病毒的傳播者。
-                        </p>
-                    </div>
-                    <div class="paragraph">
-                        <p class="firstLine">
-                            武漢病毒不像人類一樣複雜，此生唯一的目標是感染人類，傳宗接代。但人類呢？不僅要對付病毒，還要處理內亂。因此，疫情持續擴大是必然的，社區傳播的來到也並不令人意外。此時的我們要謹慎積極，但不要恐慌，恐慌是我們的弱點，也是防疫的破口。防疫心態上也應該從「只靠政府防堵疫情」轉為「全民一起減災」，只要能讓自己和家人減少感染機會，就是對防疫最大的貢獻。
-                        </p>
+            <div id="chapter03" class="chapterContainer">
+                <picture class="chapterBanner">
+                    <source media="(max-width: 870px)" srcset="images/banner_03_mobile.jpg" class="chapterBanner">
+                    <img src="images/banner_03_Web.jpg" alt="" class="chapterBanner">
+                </picture>
+                <div class="blockContainer">
+                    <div class="block">
+                        <div class="blockBanner"
+                            style="background: url('images/03_1 worry.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                            <img src="images/03_1 worry.jpg" alt="" class="blockBanner">
+                        </div>
+                        <div class="blockContent">
+                            <div class="paragraph">
+                                <h1>人性啊！</h1>
+                                <h4>● 奇貨可居，不是奇貨也囤積</h4>
+                                <p class="indent">
+                                    人類容易恐慌而做出許多不理性的行為，例如搶購衛生紙、酒精棉片、食物等。本來這些物資足以平均分配，但因為部分的人搶購、囤貨等行為，而造成真正需要的人無法取得資源，例如糖尿病友因為無酒精棉片而難以施打胰島素。
+                                </p>
+                                <h4>● 矛頭對向自己人</h4>
+                                <p class="indent">
+                                    歧視醫護人員，認為醫護人員很髒，不願意提供便當，或禁止醫護人員的小孩上學；亞洲人被視為病原，只要戴上口罩就引來側目；移工和跨國工作者被貼上防疫破口的標籤；甚至辱罵感染者，造成潛在的感染者不敢出面通報，而形成防疫漏洞。此外，也有許多人喜歡散布假消息以製造恐慌。
+                                </p>
+                                <h4>● 衛生概念待加強</h4>
+                                <p class="indent">
+                                    多數人聽過洗手的重要性，但無法將此觀念內化並落實在生活。總覺得有口罩就可以安心，以為戴上口罩擋住飛沫就不會被傳染，卻不曉得「接觸傳染」才是病毒傳播的最佳途徑。若我們無法建立洗手的習慣，等於是引狼入室，我們終將成為病毒的傳播者。
+                                </p>
+                            </div>
+                            <div class="paragraph">
+                                <p class="firstLine">
+                                    武漢病毒不像人類一樣複雜，此生唯一的目標是感染人類，傳宗接代。但人類呢？不僅要對付病毒，還要處理內亂。因此，疫情持續擴大是必然的，社區傳播的來到也並不令人意外。此時的我們要謹慎積極，但<span
+                                        class="bold">不要恐慌</span>，恐慌是我們的弱點，也是防疫的破口。防疫心態上也應該從「只靠政府防堵疫情」轉為<span
+                                        class="bold">「全民一起減災」</span>，只要能讓自己和家人減少感染機會，就是對防疫最大的貢獻。
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="chapter04" class="chapterContainer">
-            <img src="images/04_Banner.png" alt="" class="chapterBanner">
+            <picture class="chapterBanner">
+                <source media="(max-width: 870px)" srcset="images/banner_04_mobile.jpg" class="chapterBanner">
+                <img src="images/banner_04_Web.jpg" alt="" class="chapterBanner">
+            </picture>
             <div class="blockContainer">
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_1 knowing.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_1 knowing.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_1 knowing.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>三大傳播途徑</h1>
-                        <h4>❶ 吸入飛沫</h4>
-                        <p class="indent">含有病毒的飛沫直接進入健康人的呼吸道</p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>三大傳播途徑</h1>
+                            <h4>❶ 吸入飛沫</h4>
+                            <p class="indent">含有病毒的飛沫直接進入健康人的呼吸道</p>
 
-                        <h4>❷ 直接接觸</h4>
-                        <p class="indent">手直接碰到飛沫，但未洗手就接觸自己的眼、鼻、口。</p>
+                            <h4>❷ 直接接觸</h4>
+                            <p class="indent">手直接碰到飛沫，但未洗手就接觸自己的眼、鼻、口。</p>
 
-                        <h4>❸ 間接接觸</h4>
-                        <p class="indent">手間接碰到病毒，例如公車拉環、電梯按鈕等。</p>
+                            <h4>❸ 間接接觸</h4>
+                            <p class="indent">手間接碰到病毒，例如公車拉環、電梯按鈕等。</p>
+
+                            <p style="margin-top: 15px;">要阻止這三大途徑有四招防疫措施： <span class="bold">
+                                    戴口罩、勤洗手、環境消毒與社交疏遠。</span>以下就依序來介紹這四招。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_2 mask.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_2 mask.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_2 mask.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>誰一定要戴口罩？</h1>
-                        <h4>● 進入醫療院所看病、陪病、探病</h4>
-                        <p class="indent">因為醫療院所的病人密度最高，這也是為什麼醫護人員一定要戴口罩的原因。</p>
-                        <h4>● 老年人和慢性病患</h4>
-                        <p class="indent">TODO:</p>
-                        <h4>● 有症狀者（如發燒、喉嚨痛、流鼻水、打噴嚏、咳嗽等）</h4>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>招式一：戴口罩！誰一定要戴？</h1>
+                            <h4>● 進入醫療院所看病、陪病、探病</h4>
+                            <p class="indent">因為接觸到病人的機會很高，這也是為什麼醫護人員一定要戴口罩的原因。</p>
+                            <h4>● 老年人和慢性病患</h4>
+                            <p class="indent">這些人因為免疫力較差容易被感染，且感染後的致死率高，因此接觸人群時一定要戴口罩。</p>
+                            <h4>● 有症狀者（如發燒、喉嚨痛、流鼻水、打噴嚏、咳嗽等）</h4>
+                            <p class="indent">無論是否由武漢肺炎病毒引起，此時都該戴口罩避免飛沫噴濺，以保護他人。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_2_1 types.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_2_1 types.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_2_1 types.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>口罩有三層</h1>
-                        <h4>❶ 外 - 防水層</h4>
-                        <p class="indent">防水層可以阻擋飛沫，通常就是有顏色的那層。</p>
-                        <h4>❷ 中 - 過濾層</h4>
-                        <p class="indent">過濾層可以用來吸附細菌和粉層。</p>
-                        <h4>❸ 內 - 吸水層</h4>
-                        <p class="indent">吸水層可以用來吸附汗水和油脂。且因為會直接接觸皮膚，材質也比較細緻，避免久戴不適。</p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>口罩有三層</h1>
+                            <h4>❶ 外 - 防水層</h4>
+                            <p class="indent">防水層可以阻擋飛沫，通常就是有顏色的那層。</p>
+                            <h4>❷ 中 - 過濾層</h4>
+                            <p class="indent">過濾層可以用來吸附細菌和粉塵。</p>
+                            <h4>❸ 內 - 吸水層</h4>
+                            <p class="indent">吸水層可以用來吸附汗水和油脂。且因為會直接接觸皮膚，材質也比較細緻，避免久戴不適。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_2_2 wearing.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_2_2 wearing.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_2_2 wearing.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>口罩怎麼戴？</h1>
-                        <h4>❶ 顏色 - 面朝外</h4>
-                        <p class="indent">千萬別戴反，否則吸水層在外，會大量吸附別人的飛沫。</p>
-                        <h4>❷ 壓條 - 要壓緊</h4>
-                        <p class="indent">增加口罩密合度，避免飛沫從鼻樑兩側的縫隙進入口鼻。</p>
-                        <h4>❸ 下巴 - 要蓋住</h4>
-                        <p class="indent">同樣為了增加口罩密合度，避免飛沫進入口鼻。</p>
-                        <h4>❹ 勿碰顏色面</h4>
-                        <p class="indent">口罩最外層雖然防水，但還是會有別人的飛沫殘留。這一面即為「污染面」，故脫下時應避免碰觸，萬一碰觸到應立即洗手。</p>
 
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>口罩怎麼戴？</h1>
+                            <h4>❶ 顏色 - 面朝外</h4>
+                            <p class="indent">千萬別戴反，否則吸水層在外，會大量吸附別人的飛沫。</p>
+                            <h4>❷ 壓條 - 要壓緊</h4>
+                            <p class="indent">增加口罩密合度，避免飛沫從鼻樑兩側的縫隙進入口鼻。</p>
+                            <h4>❸ 下巴 - 要蓋住</h4>
+                            <p class="indent">同樣為了增加口罩密合度，避免飛沫進入口鼻。</p>
+                            <h4>❹ 勿碰顏色面</h4>
+                            <p class="indent">口罩最外層雖然防水，但還是會有別人的飛沫殘留。這一面即為<span
+                                    class="bold">「污染面」</span>，故脫下時應避免碰觸，萬一碰觸到應立即洗手。</p>
+
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_2_3 reuse.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_2_3 reuse.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_2_3 reuse.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>口罩不夠怎麼辦</h1>
-                        <p class="firstLine">
-                            在資源充裕的情況下，口罩不該重複使用。但此次疫情嚴峻，在不得已重複使用時，建議可以沿著長邊把「污染面」對折在內，再放入乾淨信封中收納。但若口罩已有明顯髒污，或明確接觸有上呼吸道症狀者後，強烈建議直接丟棄。<br>
-                            另外需要注意的是，不要用水洗或酒精等任何方式消毒口罩，否則會消除過濾層的靜電而影響防護能力。
-                        </p>
+
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>口罩不夠怎麼辦</h1>
+                            <p class="firstLine">
+                                在資源充裕的情況下，口罩不該重複使用。但此次疫情嚴峻，在不得已重複使用的狀況下，建議可以沿著長邊把<span class="bold">「污染面」</span>
+                                向內對折，再放入乾淨信封中收納。但若口罩已有明顯髒污，或明確接觸有上呼吸道症狀者後，一定要直接丟棄。
+                            </p>
+                            <p class="firstLine">另外需要注意的是，不要用水洗或酒精等任何方式消毒口罩，否則會消除過濾層的靜電而影響防護能力。
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_2_4 polite.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_2_4 polite.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_2_4 polite.jpg" alt="" class="blockBanner">
+
                     </div>
-                    <div class="paragraph">
-                        <h1>衛生禮節要注意</h1>
-                        <p class="firstLine">當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本與防疫難度絕對超過百倍，因此防疫政策愈早執行愈好。</p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>衛生禮節要注意</h1>
+                            <p class="firstLine">
+                                未配戴口罩時打噴嚏，應用面紙或手帕遮住口鼻，若無面紙或手帕時，可用衣袖代替。此外，於電梯等密閉空間中，要儘量避免交談，才不會讓飛沫飄散而增加病毒傳播機會。
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_00 wash.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_00 wash.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_00 wash.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1>TODO:</h1>
-                        <p class="firstLine">當全國只有1個人感染時，與同時有100個人感染時相比，所支出的社會成本與防疫難度絕對超過百倍，因此防疫政策愈早執行愈好。</p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>招式二：勤洗手</h1>
+                            <p class="firstLine">
+                                戴口罩只能阻擋「飛沫」傳播這條傳染途徑，但正確洗手可以阻擋
+                                <span class="bold">「直接接觸」</span>和<span
+                                    class="bold">「間接接觸」</span>兩種傳播方式。而且病毒可以在環境中存活好幾天，例如公車把手、電梯按鈕、零錢鈔票都有可能有病毒殘留，因此勤洗手是非常重要的個人防疫措施。除了要洗<span
+                                    class="bold">「至少20秒」</span>外，也要遵循洗手7步驟<span class="bold">「內外夾弓大立腕」</span>，才能真的將手洗乾淨。
+
+                                <p class="expTxt">註：洗手時唱兩次生日快樂歌就有20秒了。</p>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_01 ne.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_01 ne.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_01 ne.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>內</h1>
+                            <p class="">搓揉手心，尤其是指節、掌紋等凹陷處。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_02 wai.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_02 wai.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_02 wai.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>外</h1>
+                            <p class="">搓揉手背。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_03 jia.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_03 jia.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_03 jia.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>夾</h1>
+                            <p class="">十指交錯清洗指縫。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_04 gong.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_04 gong.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_04 gong.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>弓</h1>
+                            <p class="">搓揉指背與指節。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_05 da.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_05 da.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_05 da.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>大</h1>
+                            <p class="">搓揉拇指與虎口。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_06 li.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_06 li.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_06 li.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>立</h1>
+                            <p class="">立起手指洗指尖。注意指甲縫與指甲兩側的甲溝都要清洗乾淨，這是大部分人洗手時很容易忽略的地方。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_07 wan.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_07 wan.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_07 wan.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>腕</h1>
+                            <p class="">搓洗手腕。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_3_08 rou.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_08 rou.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_3_08 rou.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>漏</h1>
+                            <p class="firstLine">奇怪！口訣沒有「漏」字啊！這是要提醒大家，根據研究發現，平時有正確洗手的人不到一成。常犯的錯誤包括洗手時間不到
+                                <span class="bold"> 20秒</span>，及往了清潔<span class="bold">指尖、指縫</span>和<span
+                                    class="bold">手背</span>等處。</p>
+                            <p class="expTxt">註：不要死背口訣，口訣的目的只是幫助你「不要漏掉任何地方」。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_4 cleaning.jpg') rgba(252, 205, 197, 1)  center center /150%">
-                        <img src="images/04_4 cleaning.jpg" alt="" class="blockBanner">
+                        style="background: url('images/04_3_09 washingTool.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images/04_3_09 washingTool.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>那我要用什麼洗手？</h1>
+                            <p class=""><span class="bold">肥皂</span>最好，<span
+                                    class="bold">酒精</span>次之，為什麼？因為肥皂容易買到，而且酒精無法殺死所有病毒，例如諾羅病毒和腸病毒等。因此採用酒精乾洗手是無法用肥皂洗手時的權宜之計。
+                                <br>
+                                此外，為了維持皮膚的完整性與保護能力，洗手時水溫不宜太高，且可於洗手後擦拭保濕度佳但不粘膩之<span class="bold">護手霜</span>。</p>
+                        </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="blockBanner"
-                        style="background: url('images/04_5 social.jpg') rgba(252, 205, 197, 1)  center center /150%">
+                        style="background: url('images/04_3_10 timming.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images/04_3_10 timming.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>洗手時機</h1>
+                            <p class="firstLine">
+                                吃東西前、照顧小孩前、看病前後、上廁所後、擤鼻涕後等。但不要死背這些洗手時機，原則上只要進出醫療院所前後，或接觸公共物品後都要洗手，因為這些情況都會提高手部沾黏病毒的機會。
+                            </p>
+                            <p class="expTxt">註：公共物品包括公車捷運把手、電梯按鈕、扶手、鈔票零錢、大門把手等任何非私人物品。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_4_01 cleaning.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images/04_4_01 cleaning.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>招式三：環境消毒</h1>
+                            <p class="firstLine">舉凡 <span class="bold"> 公共環境、工作環境、居家環境</span>和<span
+                                    class="bold">私人物品</span>，如地面、桌椅、水龍頭、門把、馬桶蓋、沖水握把等，都有可能有病毒的存在，因此都應該<span
+                                    class="bold">每天</span>消毒一次。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_4_02 bleach.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images/04_4_02 bleach.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>漂白水如何稀釋？</h1>
+                            <p class="">稀釋比例為1:100，即半匙免洗湯匙漂白水+一公升寶特瓶清水。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images" alt="" class="blockBanner">
+                    </div>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>漂白水使用注意事項</h1>
+                            <h4>❶ 保護自己</h4>
+                            <p class="indent">漂白水對粘膜、皮膚、呼吸道都具有刺激性，所以使用時要戴塑膠手套、口罩，並保持室內空氣通風。</p>
+                            <h4>❷ 以擦代噴</h4>
+                            <p class="indent">
+                                要用擦拭，而非噴灑的方式。因為噴灑的方式無法讓漂白水均勻分布，不僅消毒效果不彰，也有吸入漂白水的風險。待15分鐘發揮效用後，再以清水擦拭一次避免物品殘留漂白水而傷害皮膚。
+                            </p>
+                            <h4>❸ 勿混其他</h4>
+                            <p class="indent">勿將漂白水與其他清潔劑混用，混用可能會產生有毒氣體而造成傷害。</p>
+                            <h4>❹ 夠用就好</h4>
+                            <p class="indent">經過稀釋的漂白水，放越久，殺菌力越差，所以儘量調配當天用得完的量就好。</p>
+                            <h4>❺ 稀釋再丟</h4>
+                            <p class="indent">當日用不完漂白水要倒掉，但務必再加100倍的清水稀釋後再倒入廚房污水道，避免污染環境。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_4_03 alchol.jpg') rgba(252, 205, 197, 1)  center center /200%">
+                        <img src="images/04_4_03 alchol.jpg" alt="" class="blockBanner">
+                    </div>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>酒精如何使用？</h1>
+                            <p class="firstLine">
+                                75%濃度的酒精可直接接觸皮膚，故除了可當乾洗手使用，亦可消毒與皮膚密切接觸的物品。但酒精較難買到，且揮發速度快，可能還沒擦拭完畢就揮發殆盡，因此不適合用來清潔大面積環境。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="blockBanner"
+                        style="background: url('images/04_5 social.jpg') rgba(252, 205, 197, 1)  center center /200%">
                         <img src="images/04_5 social.jpg" alt="" class="blockBanner">
                     </div>
-                    <div class="paragraph">
-                        <h1></h1>
-                        <h4></h4>
-                        <p class="indent"></p>
+                    <div class="blockContent">
+                        <div class="paragraph">
+                            <h1>招式四：社交疏遠</h1>
+                            <p class="firstLine">
+                                社交疏遠就是少接觸人群，因為少與人接觸，所以可以有效阻斷<span class="bold">飛沫</span>和<span
+                                    class="bold">直接接觸</span>兩條傳播路徑。具體的做法包括少去人多、密閉或高風險地區，例如各大展覽、活動、賣場、電影院、機艙、醫院和疫區等。但除非隱世獨居，否則我們很難100%不與人接觸，或不接觸他人碰觸過的物品，例如外賣包裝、賣場食品、零錢等。因此別忘了<span
+                                    class="bold">戴口罩、正確洗手、環境消毒、社交疏遠</span>四項個人防疫措施都要落實，才能有效地阻隔疫情傳播。
+                            </p>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-
+            <div id="chapter05" class="chapterContainer">
+                <picture class="chapterBanner">
+                    <source media="(max-width: 870px)" srcset="images/banner_05_mobile.jpg" class="chapterBanner">
+                    <img src="images/banner_05_Web.jpg" alt="" class="chapterBanner">
+                </picture>
+                <div class="paragraph">
+                    <p class="firstLine">
+                        防疫視同作戰，沒有人會是旁觀者。防疫的成功與否，都牽動著你我的生命財產與下一代的未來。然而，防疫並不只是政府的事情，全民也應當齊心，共同配合防疫措施才有可能贏得這場戰役。
+                    </p>
+                    <p class="firstLine">
+                        台灣的防疫專家們有2003年的SARS經驗，制定防疫政策並不是他們最大的挑戰，最大的挑戰在於人性！恐慌、歧視與無知，都是這場戰役中最難防的防疫破口，甚至會衍伸出與疫情無關的社會問題。
+                    </p>
+                    <p class="firstLine">
+                        搶購酒精棉片，而造成糖尿病患無酒精棉片使用；搶購衛生紙而造成民生物資分配不均；不願意賣便當給「醫護人員」；拒絕讓「醫護人員的小孩」上學；汙名化「移工」、「亞洲人」、「跨國工作者」，而造成感染者不敢勇於治療；從疫區回國不願自主健康管理；有症狀不敢通報等。這些有害於防疫的舉動都是現在進行式，舉世皆然。也因為這些都是「人性」，所以必須透過資訊的傳播與教育來改變。
+                    </p>
+                    <p class="firstLine">
+                        台灣這次的防疫成果舉世聞名，成為各國爭相效法的對象，但這是場持久戰，身為台灣的一份子我們更不應該因此鬆懈。我們每個人都是這場戰役中的戰士，為了保護自己，保護家人，保護下一代，我們不該讓自己成為防疫的破口。若你行有餘力，也請把這些知識傳遞給更多人，台灣的防疫需要你我一起努力。
+                    </p>
+                    <div style="margin-top: 20px;text-align: right;">
+                        <div
+                            style="display: inline-block; width:50px;height:1px;border-top: solid #4D4D4D 1px; margin:0px 0px 2px 0px;">
+                        </div>
+                        <p align="right" style="display: inline-block ;font-size:5pt;">好棒棒醫學資訊設計團隊</p>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 30px; border-bottom: solid #EFC9C1 2px; margin: 0 8px;"></div>
+            <div class="paragraph">
+                <h1>參考文獻</h1>
+                <p class="refList">01. 2019-2020 U.S. Flu Season: Preliminary Burden Estimates. (2020, March
+                    20).
+                    Retrieved from https://www.cdc.gov/flu/about/burden/preliminary-in-season-estimates.htm
+                </p>
+                <p class="refList">02. Sanjuan, R., Nebot, M. R., Chirico, N., Mansky, L. M., & Belshaw, R.
+                    (2010).
+                    Viral Mutation Rates. Journal of Virology, 84(19), 9733–9748.
+                </p>
+                <p class="refList">03. Otter, J., Donskey, C., Yezli, S., Douthwaite, S., Goldenberg, S., &
+                    Weber, D.
+                    (2016). Transmission of SARS and MERS coronaviruses and influenza virus in healthcare
+                    settings: the
+                    possible role of dry surface contamination. Journal of Hospital Infection, 92(3),
+                    235–250.
+                </p>
+                <p class="refList">04. Wong, J. S. W., & Lee, J. K. F. (2019). The Common Missed Handwashing
+                    Instances
+                    and Areas after 15 Years of Hand-Hygiene Education. Journal of Environmental and Public
+                    Health,
+                    2019, 1–7.
+                </p>
+                <p class="refList">05. Borchgrevink CP1, Cha J, Kim S. (2013). Hand washing practices in a
+                    college town
+                    environment. Journal of Environmental Health, 75(8):18-24.
+                </p>
+                <p class="refList">06. 衛生福利部疾病管制署 - 嚴重特殊傳染性肺炎. (n.d.). Retrieved from
+                    https://www.cdc.gov.tw/Disease/SubIndex/N6XvFa1YP9CXYdB0kNSA9A</p>
+            </div>
+            <div class="paragraph">
+                <h1>版權宣告</h1>
+                <div style="display:flex;flex-wrap: wrap ; margin-top: 10px;">
+                    <img src="images/CC.svg" alt=""
+                        style="flex-wrap: wrap ; margin-right: 10px; margin-top: 10px;margin-bottom: 10px;"
+                        height="40px">
+                    <p style="flex-wrap: wrap; width:400px; flex-grow:1;;">
+                        本授權條款允許使用者重製、散布、傳輸著作，但不得為商業目的之使用，亦不得修改該著作。</p>
+                </div>
             </div>
         </div>
 
         <!-- <div class="block">
             <div class="blockBanner"
-                style="background: url('images') rgba(252, 205, 197, 1)  center center /150%">
+                style="background: url('images') rgba(252, 205, 197, 1)  center center /200%">
                 <img src="images" alt="" class="blockBanner">
+                <div class="blockContent"></div>
             </div>
             <div class="paragraph">
                 <h1></h1>
@@ -459,6 +688,7 @@
             <div class="block">
                 <div class="blockBanner">
                     <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                    <div class="blockContent"></div>
                 </div>
                 <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
                 </p>
@@ -466,6 +696,7 @@
             <div class="block">
                 <div class="blockBanner">
                     <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                    <div class="blockContent"></div>
                 </div>
                 <p class="blockText">說明說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
                 </p>
@@ -473,6 +704,7 @@
             <div class="block">
                 <div class="blockBanner">
                     <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                    <div class="blockContent"></div>
                 </div>
                 <p class="blockText">說明說明說明說說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
                 </p>
@@ -480,6 +712,7 @@
             <div class="block">
                 <div class="blockBanner">
                     <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                    <div class="blockContent"></div>
                 </div>
                 <p class="blockText">說明明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
                 </p>
@@ -487,6 +720,7 @@
             <div class="block">
                 <div class="blockBanner">
                     <img src="images/chapter_01/e.jpg" alt="" class="blockBanner">
+                    <div class="blockContent"></div>
                 </div>
                 <p class="blockText">說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明說明
                 </p>
