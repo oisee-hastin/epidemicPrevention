@@ -28,6 +28,8 @@ body {
     margin:0px auto;
     background-color: #FCF4F3;
     font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing:.7pt;
+    
 }
 
 h1{
@@ -44,6 +46,8 @@ h4{
     color: #4D4D4D;
     margin-top: 20px;
     margin-bottom: 5px;
+    text-indent: -1.4em;
+    margin-left: 1.4em;
 }
 
 p{
@@ -80,11 +84,28 @@ td{
 }
 
 .indent{
-    margin-left: 1rem;
+    margin-left: 1.3em;
 }
 .firstLine{
     text-indent: 2rem;
 }
+.expTxt{
+    margin-top: 20px;
+    font-size:9pt;
+    text-indent: -2em;
+    margin-left: 2em;
+    line-height: 15pt;
+}
+.refList{
+    font-size: 9pt;
+    text-indent: -1.7em;
+    margin-left: 1.7em;
+}
+
+span.bold{
+    font-weight: bold;
+}
+
 td.widthBlank{
     width: 1rem;
 }
@@ -120,7 +141,7 @@ img.chapterBanner {
 p.chapterText{
     padding-left: 1rem;
     padding-right: 1rem;
-    color:#333333;
+    color:#4D4D4D;
     font-family: 'Noto Sans TC', sans-serif;
 
     /* font-weight:bold; */
@@ -154,10 +175,10 @@ div.blockBanner{
     margin-bottom: 1rem;
     z-index:1;
     position: relative;
-    background-size: 140%;
+    background-size: 200%;
     background-position:center center;
     background-blend-mode: overlay;
-
+    justify-content:center;
 }
 
 div.blockBanner:after{
@@ -168,22 +189,24 @@ div.blockBanner:after{
     left:0;
     top:0;
     background: inherit;
-    filter: blur(2px);
+    filter: blur(5px);
     background-blend-mode: inherit;
     z-index: 2;
+    justify-content:center;
 }
 
 img.blockBanner{
+    display:block;
     justify-content:center;
-    max-width:500px;
+    max-width:300px;
     width:100%;
-    margin:0px auto;
+    margin:auto;
     filter: none;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     z-index: 10;
+}
+
+div.blockContent{
+  margin:  0px 15px;
 }
 
 div.paragraph{
