@@ -215,7 +215,8 @@ div.blockBanner{
     z-index:1;
     position: relative;
     background-size: 200%;
-    background-image: url('../images/BG.jpg');
+    background-color: #F8E0DE;
+/*     background-image: url('../images/BG.jpg'); */
     background-position:center center;
     /* background-blend-mode: overlay; */
     justify-content:center;
