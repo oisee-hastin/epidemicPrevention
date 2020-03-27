@@ -209,15 +209,16 @@ div.blockB{
 div.blockBanner{
     vertical-align: middle;
     overflow: hidden;
-    display:flex;
+    /* display:flex; */
     width:100%;
     margin-bottom: 1rem;
-    z-index:1;
+    /* z-index:1; */
     position: relative;
-    background-size: 200%;
+    /* background-size: 200%; */
     background-color: #F8E0DE;
-/*     background-image: url('../images/BG.jpg'); */
-    background-position:center center;
+
+    /* background-image: url('../images/BG.jpg'); */
+    /* background-position:center center; */
     /* background-blend-mode: overlay; */
     justify-content:center;
 }
